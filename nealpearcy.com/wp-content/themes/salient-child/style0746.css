@@ -1,0 +1,537 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Tenor+Sans&display=swap');
+
+div#header-space {
+    display: none;
+    background-color: transparent;
+}
+div#header-outer {
+    background-color: transparent !important;
+}
+#header-outer[data-lhe="animated_underline"] nav > ul >li:not([class*="button_"]) >a:after{
+border-top: 1px solid #000;}
+div#slider {
+    padding-top: 200px !important;
+}
+div#slider .slider-text1 {
+    margin-top: 100px;
+}
+div#slider h1 {
+    color: #FFFFFF;
+    font-family: 'Cinzel';
+    font-size: 114px;
+    font-weight: 100;
+    position: relative;
+    left: -47px;
+}
+div#slider h2 {
+    color: #FFFFFF;
+    font-family: 'Cinzel';
+    font-size: 88px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /* position: relative; */
+    /* top: 20px; */
+}
+div#slider p {
+    font-size: 20px;
+    color: #FFFFFF;
+	font-family: 'Cormorant Garamond';
+}
+div#slider .wpb_text_column.wpb_content_element.slider-text4 {
+    margin-top: 45px;
+    margin-left: -180px;
+}
+div#slider img.img-with-animation.skip-lazy.slider-img2.animated-in {
+    top: 25px;
+}
+#top nav ul li a {
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond';
+    font-size: 20px;
+    font-weight: 100;
+}
+div#Author:before {
+    content: '';
+    background-image: url(../../uploads/2025/09/leaf-1.png);
+    background-repeat: no-repeat;
+    width: 82%;
+    height: 534px;
+    z-index: 2;
+    top: 0%;
+    left: 33%;
+    position: absolute;
+    background-size: cover;
+}
+div#Author {
+    color: #000000;
+}
+div#Author  h3 {
+    color: #a93409;
+	font-family: 'Cormorant Garamond';
+}
+div#Author  h1{
+	font-family: 'Cinzel';
+    font-size: 56px;
+	color: #000000;
+}
+div#Book:before {
+    content: '';
+    background-image: url(../../uploads/2025/09/leaf-2.png);
+    background-repeat: no-repeat;
+    width: 82%;
+    height: 534px;
+    z-index: 2;
+    top: 0%;
+    right: 35%;
+    position: absolute;
+    background-size: cover;
+}
+div#Book h3 {
+    color: #a93409;
+	font-family: 'Cormorant Garamond';
+}
+div#Book h1{
+	font-family: 'Cinzel';
+    font-size: 60px;
+	color: #000000;	
+}
+div#Book p{
+	color: #000000;
+	font-size: 18px;
+	font-family: 'Cormorant Garamond';
+}
+div#trailer .wpb_text_column.wpb_content_element.trailer-text {
+    padding-top: 150px;
+	width: 140%;
+}
+div#trailer h3 {
+    font-size: 25px;
+    font-weight: 100;
+	font-family: 'Cormorant Garamond';
+}
+div#trailer h1 {
+    font-family: 'Cinzel';
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+
+div#trailer img.img-with-animation.skip-lazy.trailer-img.animated-in {
+    left: 65%;
+} 
+div#trailer .trailer-btn {
+    top: 170px;
+    left: 20%;
+}
+
+div#trailer .span_12.dark .nectar_video_lightbox.play_button:before {
+    border: 5px solid #A93409;
+}
+div#trailer .span_12.dark .nectar_video_lightbox path {
+    fill: #FFFFFF;
+}
+div#trailer .row-bg.using-image {
+    background-size: 100% 100%;
+}
+div#Testimonials h6 {
+    color: #000000;
+    font-weight: 100;
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+}
+div#Testimonials h3{
+	color: #a93409;
+	font-family: 'Cormorant Garamond';
+}
+div#blog h3{
+	color: #a93409;
+	font-family: 'Cormorant Garamond';
+}
+div#Testimonials h1{
+	font-family: 'Cinzel';
+    font-size: 60px;
+	color: #000000;	
+}
+div#blog h1{
+	font-family: 'Cinzel';
+    font-size: 60px;
+	color: #000000;	
+}
+div#Testimonials .wpb_text_column.wpb_content_element.testi-text {
+    color: #555555;
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+}
+div#Testimonials .wpb_text_column.wpb_content_element.testi-text h5 {
+    color: #000000;
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+}
+div#Testimonials .wpb_text_column.wpb_content_element.testi-text h6 {
+    color: #7F7F7F;
+	font-family: 'Cormorant Garamond';
+	font-size: 18px;
+}
+div#Testimonials img.size-full.wp-image-59.alignright {
+    width: 10%;
+    margin-top: -50px;
+}
+div#Testimonials .carousel-item {
+    border-left: 4px solid #a93409;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+	padding-left: 20px;
+	height: 220px;
+}
+div#Testimonials  img.testi-img1 {
+    width: 25%;
+    margin-top: 0px;
+}
+div#Newsletter .wpb_text_column.wpb_content_element.news-text h1 {
+    font-size: 40px;
+	font-family: 'Cinzel';
+}
+input#ff_2_email {
+    background-color: #FFFFFF;
+	padding: 15px;
+}
+button.ff-btn.ff-btn-submit.ff-btn-sm.ff_btn_style.wpf_has_custom_css {
+    right: 90%;
+    bottom: 10%;
+    padding: 6px 24px !important;
+	padding: 7px 24px !important;
+    border-color: #a93409;
+}
+
+div#footer-outer {
+    background-color: #FFFFFF;
+}
+
+ul#menu-footer {
+    display: flex;
+    gap: 20px;
+    font-family: 'Cormorant Garamond';
+    color: #a93409;
+    font-size: 16px;
+    font-weight: 600;
+}
+div#nav_menu-2:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #a93409;
+    top: 40%;
+}
+
+.max-w-7xl.mx-auto.px-4.py-3.flex.flex-col.sm\:flex-row.justify-between.items-center.text-gray-700.text-sm {
+    display: flex;
+    gap: 170px;
+    margin-top: 90px;
+	color: #555555;
+}
+#footer-outer a {
+    color: #555555;
+    padding-right: 14px;
+}
+.single-post .container-wrap #author-bio #author-info a {
+    color: #000000;
+}
+.single-post {
+    color: #000000;
+}
+div#blog .row.blog-recent.columns-3 {
+    color: #000000;
+}
+ .home .blog-recent .col .post-header h3 {
+    color: #000000;
+}
+.single-post input#submit {
+    background-color: #a93409;
+}
+.page-id-20 .wpb_text_column.wpb_content_element.book-text {
+    padding-top: 100px;
+}
+.page-id-20 img.img-with-animation.skip-lazy.book-img.animated-in {
+    top: 220px;
+    scale: 1.2;
+}
+
+.page-id-20 .vc_col-sm-8.wpb_column.column_container.vc_column_container.col.no-extra-padding.inherit_tablet.inherit_phone.instance-5 {
+    left: 10%;
+}
+
+
+div#Testimonials h4 {
+    color: #000;
+    font-weight: 100;
+}
+
+div#block-4 p {
+    color: #000 ! IMPORTANT;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 999px) {
+	div#trailer img.img-with-animation.skip-lazy.trailer-img.animated-in {
+    left: 0 !important;
+}
+	div#header-outer {
+    background-color: #000 !important;
+}
+	div#slider {
+    padding: 0 0 0 0 !important;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+	div#slider h1 {
+    font-family: 'Cinzel';
+    font-size: 100px !important;
+}
+	div#slider h2 {
+    color: #FFFFFF;
+    font-family: 'Cinzel';
+	font-size: 50px !important;
+}
+	div#slider a{
+    width: 100% !important;
+}
+	div#slider .slider-img2 {
+    left: 15% !important;
+}
+	div#slider .slider-text4 {
+    margin-top: 45px !important;
+    margin-left: 10px !important;
+}
+	div#Author{
+    text-align: center;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 auto;
+}
+	div#Author a.nectar-button.large.regular.extra-color-2.regular-button {
+    width: 100%;
+}
+	
+	div#Author:before {
+	visibility: hidden !important;
+}
+	div#Author h1 {
+    font-family: 'Cinzel';
+    font-size: 46px !important;
+}
+	div#Book {
+    padding: 0 0 0 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+	div#Book h1{
+    font-family: 'Cinzel';
+    font-size: 40px !important;
+}
+	div#Book a{
+    width: 100%;
+}
+	a.nectar-button.large.regular.extra-color-2.regular-button {
+    margin-left: 0 !important;
+}
+	div#Book:before{
+	visibility: hidden !important;
+}
+div#trailer {
+    padding: 0 0 0 0 !important;
+    text-align: center;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+	div#trailer .wpb_text_column.wpb_content_element.trailer-text {
+    padding-top: 80px;
+    width: 100%;
+}
+	div#trailer h1 {
+    font-family: 'Cinzel';
+	font-size: 34px;
+}
+	div#trailer .trailer-btn {
+    top: 0px;
+    left: 0%;
+}
+	div#Testimonials h1 {
+    font-family: 'Cinzel';
+	font-size: 40px;
+}
+	div#blog {
+    padding: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+	div#Newsletter {
+    padding: 0 0 0 0;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+	div#Newsletter .news-text h1 {
+    font-size: 21px;
+    font-family: 'Cinzel';
+    text-align: center !important;
+}
+	div#Newsletter button.ff-btn.ff-btn-submit.ff-btn-sm.ff_btn_style.wpf_has_custom_css {
+    right: 0%;
+    bottom: 0%;
+    padding: 6px 24px !important;
+    padding: 20px 4px !important;
+    border-color: #a93409;
+    width: 100%;
+    font-size: 20px;
+}
+	div#footer-outer {
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 0 0 0 !important;
+}
+	ul#menu-footer {
+	display: inline-block !important;
+}
+	div#nav_menu-2:before {
+    top: 60% !important;
+}
+	div#footer-outer .max-w-7xl.mx-auto.px-4.py-3.flex.flex-col.sm\:flex-row.justify-between.items-center.text-gray-700.text-sm {
+    display: inline-block !important;
+}
+
+}
+ @media only screen and (min-width: 999px) and (max-width: 1300px) {
+ 	div#slider h1 {
+    font-size: 90px !important;
+}
+
+	div#slider h2 {
+    font-size: 60px !important;
+}	
+	div#slider .wpb_text_column.wpb_content_element.slider-text4 {
+    margin-top: 45px;
+    margin-left: -100px !important;
+}
+	
+	div#slider .slide-text {
+    top: -80px;
+}
+	#top #logo img {
+    width: 100% !important;
+}
+
+	img.stnd.default-logo.dark-version {
+    object-fit: contain !important;
+}
+
+
+#top #logo img {
+    width: 100% !important;
+}
+
+#header-outer .row .col.span_3 {
+    width: 25% !important;
+}
+
+#top nav ul li a {
+    text-align: center !important;
+    margin: 0px 5px !important;
+}
+
+ul.buttons.sf-menu {
+    margin-left: 0px !important;
+}
+
+ul.sf-menu.sf-js-enabled.sf-arrows {
+    padding-left: 44px !important;
+}
+button.ff-btn.ff-btn-submit.ff-btn-sm.ff_btn_style.wpf_has_custom_css {
+    right: 120% !important;
+	 }
+}
+
+.post-header.featured h3 {
+    color: #000000 !important;
+}
+
+a.nectar-button.large.regular.extra-color-2.regular-button {
+    border-radius: 0 !important;
+    padding: 13px 45px !important;
+    outline: 1px solid #a93409 !important;
+    outline-offset: 5px;
+    margin-left: 8px;
+    margin-right: 11px;
+    margin-top: 8px;
+}
+.vc_col-sm-6 {
+    align-content: center;
+}
+#trailer a.play_button_2.large.nectar_video_lightbox {
+    display: none;
+}
+
+#trailer .nectar-video-box {
+    width: 100px;
+    position: relative;
+    left: 0px;
+}
+
+#trailer .nectar-video-box .inner-wrap {
+    overflow: unset;
+}
+
+#Testimonials .owl-nav.disabled {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+
+#Testimonials .owl-theme .owl-nav [class*='owl-'] {
+    color: #a93409 !important;
+    background: transparent !important;
+    border: none;
+    font-size: 44px;
+}
+div#Newsletter {
+    padding: 30px 0px !important;
+}
+
+#Newsletter .vc_col-sm-6:nth-child(2) {
+    top: 20px;
+}
+
+#footer-outer .row {
+    padding: 60px 0px 0 0 !important;
+}
+
+.max-w-7xl.mx-auto.px-4.py-3.flex.flex-col.sm\:flex-row.justify-between.items-center.text-gray-700.text-sm {
+    margin-top: 0 !important;
+}
+
+
+
+
+img.img-with-animation.skip-lazy.slider-img2.animated-in {
+    padding-bottom: 36px;
+}
