@@ -535,3 +535,23 @@ div#Newsletter {
 img.img-with-animation.skip-lazy.slider-img2.animated-in {
     padding-bottom: 36px;
 }
+
+/* Book Updates nav button */
+#top nav > ul.sf-menu > li.menu-item-29 > a {
+    background-color: #a93409;
+    color: #FFFFFF !important;
+    font-weight: 600;
+    padding: 6px 22px !important;
+    line-height: 1.1 !important;
+    outline: 1px solid #a93409;
+    outline-offset: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+#top nav > ul.sf-menu > li.menu-item-29 > a:hover,
+#top nav > ul.sf-menu > li.menu-item-29 > a:focus {
+    background-color: #FFFFFF;
+    color: #a93409 !important;
+}
+#top nav > ul.sf-menu > li.menu-item-29 > a:after {
+    display: none;
+}
